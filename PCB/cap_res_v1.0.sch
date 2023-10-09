@@ -187,6 +187,64 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
+<library name="connectors">
+<packages>
+<package name="CAPRES_PADS">
+<smd name="P0" x="1.15" y="0.4" dx="1.6764" dy="0.8128" layer="1" rot="R88"/>
+<smd name="P7" x="-1.2" y="0.4" dx="1.6764" dy="0.8128" layer="1" rot="R92"/>
+<smd name="P1" x="3.6" y="0.2" dx="1.6764" dy="0.8128" layer="1" rot="R85"/>
+<smd name="P2" x="6.15" y="-0.15" dx="1.6764" dy="0.8128" layer="1" rot="R79"/>
+<smd name="P3" x="8.6" y="-0.75" dx="1.6764" dy="0.8128" layer="1" rot="R75"/>
+<smd name="P6" x="-3.7" y="0.25" dx="1.6764" dy="0.8128" layer="1" rot="R275"/>
+<smd name="P5" x="-6.4" y="-0.1" dx="1.6764" dy="0.8128" layer="1" rot="R281"/>
+<smd name="P4" x="-8.7" y="-0.65" dx="1.6764" dy="0.8128" layer="1" rot="R285"/>
+<circle x="-8.56" y="-1.06" radius="0.3807875" width="0.4064" layer="48"/>
+<circle x="-6.26" y="-0.61" radius="0.4272" width="0.4064" layer="48"/>
+<circle x="-3.66" y="-0.21" radius="0.3807875" width="0.4064" layer="48"/>
+<circle x="-1.16" y="-0.06" radius="0.4472125" width="0.4064" layer="48"/>
+<circle x="1.14" y="-0.01" radius="0.412309375" width="0.4064" layer="48"/>
+<circle x="3.59" y="-0.21" radius="0.430115625" width="0.4064" layer="48"/>
+<circle x="6.04" y="-0.61" radius="0.471696875" width="0.4064" layer="48"/>
+<circle x="8.54" y="-1.11" radius="0.4242625" width="0.4064" layer="48"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPRES_PADS">
+<pin name="P$1" x="-7.62" y="0" length="middle"/>
+<pin name="P$2" x="-7.62" y="-2.54" length="middle"/>
+<pin name="P$3" x="-7.62" y="-5.08" length="middle"/>
+<pin name="P$4" x="-7.62" y="-7.62" length="middle"/>
+<pin name="P$5" x="-7.62" y="-10.16" length="middle"/>
+<pin name="P$6" x="-7.62" y="-12.7" length="middle"/>
+<pin name="P$7" x="-7.62" y="-15.24" length="middle"/>
+<pin name="P$8" x="-7.62" y="-17.78" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CAPRES_PADS">
+<gates>
+<gate name="G$1" symbol="CAPRES_PADS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPRES_PADS">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P0"/>
+<connect gate="G$1" pin="P$2" pad="P1"/>
+<connect gate="G$1" pin="P$3" pad="P2"/>
+<connect gate="G$1" pin="P$4" pad="P3"/>
+<connect gate="G$1" pin="P$5" pad="P4"/>
+<connect gate="G$1" pin="P$6" pad="P5"/>
+<connect gate="G$1" pin="P$7" pad="P6"/>
+<connect gate="G$1" pin="P$8" pad="P7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -207,16 +265,73 @@
 </class>
 </classes>
 <parts>
+<part name="U$1" library="connectors" deviceset="CAPRES_PADS" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
+<instance part="U$1" gate="G$1" x="27.94" y="22.86" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="S00" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$8"/>
+<wire x1="20.32" y1="5.08" x2="15.24" y2="5.08" width="0.1524" layer="91"/>
+<label x="15.24" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="S01" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$7"/>
+<wire x1="20.32" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="91"/>
+<label x="7.62" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="S02" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$6"/>
+<wire x1="20.32" y1="10.16" x2="0" y2="10.16" width="0.1524" layer="91"/>
+<label x="0" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="S03" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$5"/>
+<wire x1="20.32" y1="12.7" x2="-7.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="-7.62" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="S04" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$4"/>
+<wire x1="20.32" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
+<label x="0" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="S06" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<wire x1="20.32" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
+<label x="15.24" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="S05" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="20.32" y1="17.78" x2="7.62" y2="17.78" width="0.1524" layer="91"/>
+<label x="7.62" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="S07" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="20.32" y1="22.86" x2="7.62" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

@@ -8443,8 +8443,6 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="IC2" library="SamacSys_Parts" deviceset="ADG701LBRJZ-REEL7" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2,7k"/>
-<part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="IC3" library="SamacSys_Parts" deviceset="AD8605ARTZ-REEL7" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -8455,7 +8453,6 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100p"/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -8475,6 +8472,7 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8579,13 +8577,6 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <instance part="GND1" gate="1" x="74.93" y="143.51" smashed="yes">
 <attribute name="VALUE" x="74.93" y="143.256" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="64.77" y="144.78" smashed="yes" rot="MR90">
-<attribute name="NAME" x="61.1886" y="142.24" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="58.42" y="142.24" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="GND20" gate="1" x="64.77" y="134.62" smashed="yes">
-<attribute name="VALUE" x="64.77" y="134.366" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="IC3" gate="G$1" x="76.2" y="181.61" smashed="yes">
 <attribute name="NAME" x="78.74" y="187.96" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="78.74" y="185.42" size="1.778" layer="96" align="center-left"/>
@@ -8620,10 +8611,6 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 </instance>
 <instance part="GND28" gate="1" x="45.72" y="165.1" smashed="yes">
 <attribute name="VALUE" x="45.72" y="164.846" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="R4" gate="G$1" x="123.19" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="125.73" y="151.3586" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="125.73" y="148.59" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R5" gate="G$1" x="121.92" y="189.23" smashed="yes" rot="MR0">
 <attribute name="NAME" x="124.46" y="185.6486" size="1.778" layer="95" rot="MR0"/>
@@ -8691,6 +8678,9 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <instance part="GND12" gate="1" x="20.32" y="139.7" smashed="yes" rot="R180">
 <attribute name="VALUE" x="20.32" y="139.954" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
+<instance part="GND8" gate="1" x="6.35" y="81.28" smashed="yes">
+<attribute name="VALUE" x="6.35" y="81.026" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8753,11 +8743,6 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="64.77" y1="139.7" x2="64.77" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="V-"/>
 <wire x1="76.2" y1="179.07" x2="64.77" y2="179.07" width="0.1524" layer="91"/>
 <wire x1="64.77" y1="179.07" x2="64.77" y2="173.99" width="0.1524" layer="91"/>
@@ -8808,16 +8793,7 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="IC6" gate="G$1" pin="VSS_1"/>
-<wire x1="38.1" y1="67.31" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="PA5"/>
-<wire x1="38.1" y1="68.58" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
-<junction x="38.1" y="68.58"/>
-<pinref part="IC6" gate="G$1" pin="PA7"/>
-<wire x1="30.48" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="71.12" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
-<junction x="30.48" y="68.58"/>
+<wire x1="38.1" y1="67.31" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="VSS_2"/>
@@ -8828,6 +8804,16 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <pinref part="IC6" gate="G$1" pin="EP"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="20.32" y1="129.54" x2="20.32" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="PA0/CK_IN"/>
+<wire x1="7.62" y1="93.98" x2="6.35" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="6.35" y1="93.98" x2="6.35" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="PA2"/>
+<wire x1="6.35" y1="88.9" x2="6.35" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="88.9" x2="6.35" y2="88.9" width="0.1524" layer="91"/>
+<junction x="6.35" y="88.9"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -9000,14 +8986,6 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <wire x1="25.4" y1="129.54" x2="25.4" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D_" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="IN"/>
-<wire x1="102.87" y1="154.94" x2="118.11" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<label x="105.41" y="154.94" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="RX" class="0">
 <segment>
 <label x="40.64" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -9044,16 +9022,9 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <label x="41.91" y="181.61" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="PA6"/>
-<wire x1="27.94" y1="71.12" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
-<label x="27.94" y="66.04" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="DISCHARGE" class="0">
-<segment>
-<wire x1="128.27" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
-<label x="134.62" y="154.94" size="1.778" layer="95" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="IC6" gate="G$1" pin="PA1"/>
+<wire x1="7.62" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="91"/>
+<label x="5.08" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN-" class="0">
@@ -9113,11 +9084,6 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <wire x1="138.43" y1="133.35" x2="96.52" y2="133.35" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="PA3"/>
-<wire x1="20.32" y1="71.12" x2="20.32" y2="64.77" width="0.1524" layer="91"/>
-<label x="20.32" y="64.77" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="BIAS_IN" class="0">
 <segment>
@@ -9133,12 +9099,8 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 </net>
 <net name="S" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="64.77" y1="152.4" x2="64.77" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="S"/>
 <wire x1="77.47" y1="152.4" x2="69.85" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="152.4" x2="64.77" y2="152.4" width="0.1524" layer="91"/>
-<junction x="69.85" y="152.4"/>
 <wire x1="69.85" y1="133.35" x2="69.85" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="133.35" x2="69.85" y2="133.35" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
@@ -9198,6 +9160,14 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <wire x1="-6.35" y1="177.8" x2="-11.43" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="Q6"/>
 <label x="-6.35" y="177.8" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="DISCHARGE" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="IN"/>
+<wire x1="102.87" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
+<label x="105.41" y="154.94" size="1.778" layer="95"/>
+<label x="134.62" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
