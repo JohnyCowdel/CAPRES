@@ -13570,7 +13570,10 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="C20" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-78.74" y1="123.19" x2="-78.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="123.19" x2="-78.74" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="120.65" x2="-78.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-74.93" y1="120.65" x2="-78.74" y2="120.65" width="0.1524" layer="91"/>
+<junction x="-78.74" y="120.65"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>

@@ -13860,12 +13860,12 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <label x="67.31" y="181.61" size="1.778" layer="95"/>
 <wire x1="63.5" y1="181.61" x2="59.69" y2="181.61" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="189.23" x2="63.5" y2="189.23" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="189.23" x2="63.5" y2="189.23" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="189.23" x2="63.5" y2="181.61" width="0.1524" layer="91"/>
 <junction x="63.5" y="181.61"/>
-<wire x1="129.54" y1="189.23" x2="129.54" y2="214.63" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="189.23" x2="133.35" y2="214.63" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="G$1" pin="A"/>
-<wire x1="129.54" y1="214.63" x2="125.73" y2="214.63" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="214.63" x2="125.73" y2="214.63" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT" class="0">

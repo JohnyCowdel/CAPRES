@@ -3367,10 +3367,11 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 </signal>
 <signal name="SWCLK">
 <contactref element="IC1" pad="24"/>
-<wire x1="14.790546875" y1="20.296759375" x2="17.006975" y2="19.378684375" width="0.254" layer="16" curve="-45"/>
+<wire x1="16.3846125" y1="19.486475" x2="15.0466125" y2="20.04069375" width="0.254" layer="16"/>
+<wire x1="14.790546875" y1="20.296759375" x2="15.0466125" y2="20.04069375" width="0.254" layer="16" curve="-45"/>
 <contactref element="U$10" pad="P1"/>
-<wire x1="17.006975" y1="19.378684375" x2="17.448153125" y2="18.86721875" width="0.254" layer="16" curve="-8.439411"/>
-<wire x1="17.448153125" y1="18.86721875" x2="19.106884375" y2="18.319353125" width="0.254" layer="16" curve="58.862485"/>
+<wire x1="16.3846125" y1="19.486475" x2="16.70785625" y2="19.11173125" width="0.254" layer="16" curve="-8.439411"/>
+<wire x1="16.70785625" y1="19.11173125" x2="19.106884375" y2="18.319353125" width="0.254" layer="16" curve="58.862485"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="IC1" pad="23"/>

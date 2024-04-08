@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,20 +23,20 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -47,19 +47,19 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -340,6 +340,14 @@
 <wire x1="21.2" y1="-7.55" x2="-13.5" y2="18" width="0.1524" layer="20" curve="146.5"/>
 <wire x1="-28.45" y1="17.7" x2="-19.25" y2="11.65" width="0.1524" layer="20" curve="178.283835"/>
 <wire x1="-19.25" y1="11.65" x2="-18.15" y2="13.3" width="0.1524" layer="20" curve="0.994548"/>
+<circle x="-8.56" y="32.44" radius="0.3807875" width="0.4064" layer="48"/>
+<circle x="-6.26" y="32.89" radius="0.4272" width="0.4064" layer="48"/>
+<circle x="-3.66" y="33.29" radius="0.3807875" width="0.4064" layer="48"/>
+<circle x="-1.16" y="33.44" radius="0.4472125" width="0.4064" layer="48"/>
+<circle x="1.14" y="33.49" radius="0.412309375" width="0.4064" layer="48"/>
+<circle x="3.59" y="33.29" radius="0.430115625" width="0.4064" layer="48"/>
+<circle x="6.04" y="32.89" radius="0.471696875" width="0.4064" layer="48"/>
+<circle x="8.54" y="32.39" radius="0.4242625" width="0.4064" layer="48"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1631,6 +1639,34 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="0.15" y1="-1" x2="-0.15" y2="-1" width="0.2" layer="21"/>
 <wire x1="-0.15" y1="-1" x2="-0.15" y2="1" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="1.2" x2="-0.5" y2="1.2" width="0.2" layer="21"/>
+</package>
+<package name="SOIC127P600X175-8N">
+<description>&lt;b&gt;SP3077EEN-L&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.7" y="1.905" dx="1.5" dy="0.65" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.5" dy="0.65" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.5" dy="0.65" layer="1"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.5" dy="0.65" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.5" dy="0.65" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.5" dy="0.65" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.5" dy="0.65" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.5" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.7" y1="2.7" x2="3.7" y2="2.7" width="0.05" layer="51"/>
+<wire x1="3.7" y1="2.7" x2="3.7" y2="-2.7" width="0.05" layer="51"/>
+<wire x1="3.7" y1="-2.7" x2="-3.7" y2="-2.7" width="0.05" layer="51"/>
+<wire x1="-3.7" y1="-2.7" x2="-3.7" y2="2.7" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="2.45" x2="1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="2.45" x2="1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-2.45" x2="-1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="-3.45" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -3139,15 +3175,15 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <attribute name="SPICEPREFIX" value="R" x="-25.49" y="18.22" size="1.016" layer="28" font="vector" ratio="15" rot="MR225" display="off"/>
 <attribute name="VALUE" x="-24.591975" y="20.016053125" size="1.27" layer="28" rot="MR225"/>
 </element>
-<element name="J1" library="SamacSys_Parts" package="1011482811108LF" value="10114828-11108LF" x="28.72" y="0.3" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="1.25mm Wire to Board Wafer,Vertical, Surface Mount, 8 Positions" x="28.72" y="0.3" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="5.2mm" x="28.72" y="0.3" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol Communications Solutions" x="28.72" y="0.3" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="10114828-11108LF" x="28.72" y="0.3" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="649-10114828-11108LF" x="28.72" y="0.3" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10114828-11108LF?qs=SqJKR5MmryfFoElmUQ%252BV5w%3D%3D" x="28.72" y="0.3" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
-<attribute name="NAME" x="26.069990625" y="8.100003125" size="1.016" layer="26" ratio="15" rot="MR270" align="center"/>
-<attribute name="VALUE" x="28.369990625" y="0.300003125" size="1.27" layer="28" rot="MR270" align="center"/>
+<element name="J1" library="SamacSys_Parts" package="1011482811108LF" value="10114828-11108LF" x="27.12" y="-3.15" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="1.25mm Wire to Board Wafer,Vertical, Surface Mount, 8 Positions" x="27.12" y="-3.15" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="5.2mm" x="27.12" y="-3.15" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol Communications Solutions" x="27.12" y="-3.15" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="10114828-11108LF" x="27.12" y="-3.15" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="649-10114828-11108LF" x="27.12" y="-3.15" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10114828-11108LF?qs=SqJKR5MmryfFoElmUQ%252BV5w%3D%3D" x="27.12" y="-3.15" size="1.016" layer="28" font="vector" ratio="15" rot="MR270" display="off"/>
+<attribute name="NAME" x="24.469990625" y="4.650003125" size="1.016" layer="26" ratio="15" rot="MR270" align="center"/>
+<attribute name="VALUE" x="26.769990625" y="-3.149996875" size="1.27" layer="28" rot="MR270" align="center"/>
 </element>
 <element name="IC6" library="SamacSys_Parts" package="SOT65P210X110-6N" value="MCP40D18T-103E_LT" x="-13.58" y="21.67" smashed="yes" rot="MR230">
 <attribute name="DESCRIPTION" value="Digital Potentiometer, 10k, 7-bit, I2C" x="-13.58" y="21.67" size="1.778" layer="28" rot="MR230" display="off"/>
@@ -3158,6 +3194,16 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP40D18T-103E-LT?qs=dQMF8gqycOXln2h%252BoShOLQ%3D%3D" x="-13.58" y="21.67" size="1.778" layer="28" rot="MR230" display="off"/>
 <attribute name="NAME" x="-15.43" y="23.47" size="1.016" layer="26" font="vector" ratio="15" rot="MR140" align="center"/>
 <attribute name="VALUE" x="-13.58" y="21.67" size="1.27" layer="28" rot="MR230" align="center"/>
+</element>
+<element name="D1" library="SamacSys_Parts" package="SOIC127P600X175-8N" value="SMDA05-6.TBT" x="-31.35" y="-37.8" smashed="yes">
+<attribute name="DESCRIPTION" value="Semtech SMDA05-6.TBT, Hex-Element Uni-Directional TVS Diode Array, 300W, 8-Pin SOIC" x="-31.35" y="-37.8" size="1.016" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-31.35" y="-37.8" size="1.016" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="SEMTECH" x="-31.35" y="-37.8" size="1.016" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SMDA05-6.TBT" x="-31.35" y="-37.8" size="1.016" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="947-SMDA05-6.TBT" x="-31.35" y="-37.8" size="1.016" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Semtech/SMDA05-6TBT/?qs=rBWM4%252BvDhIeV9BDKWI3yYQ%3D%3D" x="-31.35" y="-37.8" size="1.016" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="-31.35" y="-37.8" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-31.35" y="-37.8" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -3321,13 +3367,13 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <via x="24.05" y="11" extent="1-16" drill="0.35"/>
 <via x="29.85" y="12.15" extent="1-16" drill="0.35"/>
 <via x="30.8" y="10" extent="1-16" drill="0.35"/>
-<via x="23.1" y="5.7" extent="1-16" drill="0.35"/>
-<via x="23.9" y="-0.45" extent="1-16" drill="0.35"/>
-<via x="23.4" y="-6.55" extent="1-16" drill="0.35"/>
-<via x="26.1" y="-7.7" extent="1-16" drill="0.35"/>
-<via x="29.35" y="-3.55" extent="1-16" drill="0.35"/>
+<via x="22.65" y="6.8" extent="1-16" drill="0.35"/>
+<via x="23.55" y="2.7" extent="1-16" drill="0.35"/>
+<via x="22.55" y="-6.95" extent="1-16" drill="0.35"/>
+<via x="27.9" y="-7.45" extent="1-16" drill="0.35"/>
+<via x="28.75" y="-4.7" extent="1-16" drill="0.35"/>
 <via x="32.15" y="3.8" extent="1-16" drill="0.35"/>
-<via x="32.45" y="-1.45" extent="1-16" drill="0.35"/>
+<via x="32.35" y="-2.4" extent="1-16" drill="0.35"/>
 <via x="10.15" y="31.05" extent="1-16" drill="0.35"/>
 <via x="13.45" y="29.7" extent="1-16" drill="0.35"/>
 <via x="-10.05" y="30.95" extent="1-16" drill="0.35"/>
@@ -3338,10 +3384,37 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <via x="-27.02" y="14.55" extent="1-16" drill="0.35"/>
 <via x="-23.77" y="11.85" extent="1-16" drill="0.35"/>
 <via x="-26.52" y="11.8" extent="1-16" drill="0.35"/>
-<via x="30.48" y="-9.65" extent="1-16" drill="0.35"/>
-<via x="27.48" y="-10.7" extent="1-16" drill="0.35"/>
-<via x="23.83" y="-9.7" extent="1-16" drill="0.35"/>
-<via x="25.08" y="-12.5" extent="1-16" drill="0.35"/>
+<via x="31.18" y="-8.3" extent="1-16" drill="0.35"/>
+<via x="28.08" y="-12.95" extent="1-16" drill="0.35"/>
+<via x="22.63" y="-10.6" extent="1-16" drill="0.35"/>
+<via x="24.88" y="-13.1" extent="1-16" drill="0.35"/>
+<via x="19.08" y="26.54" extent="1-16" drill="0.35"/>
+<contactref element="D1" pad="7"/>
+<contactref element="D1" pad="6"/>
+<wire x1="-28.65" y1="-37.165" x2="-28.65" y2="-38.435" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.52" y1="11.8" x2="-28.65" y2="-37.165" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.22" y1="19.18" x2="-13.16" y2="19.26" width="0" layer="19" extent="16-16"/>
+<wire x1="-14.222790625" y1="22.43604375" x2="-15.22" y2="23.1" width="0" layer="19" extent="16-16"/>
+<wire x1="15.6375625" y1="17.914709375" x2="14.31" y2="18.46" width="0" layer="19" extent="16-16"/>
+<wire x1="-6.6" y1="27.96" x2="-7.65" y2="26.85" width="0" layer="19" extent="16-16"/>
+<wire x1="16.8375625" y1="16.889709375" x2="15.6375625" y2="17.914709375" width="0" layer="19" extent="16-16"/>
+<wire x1="26.803896875" y1="16.754196875" x2="28.34" y2="16.28" width="0" layer="19" extent="16-16"/>
+<wire x1="-8.64425625" y1="23.46478125" x2="-6.95" y2="22.25" width="0" layer="19" extent="16-16"/>
+<wire x1="2.928" y1="27.74" x2="2.8" y2="25.6" width="0" layer="19" extent="16-16"/>
+<wire x1="-19.48961875" y1="14.282309375" x2="-19.99" y2="12.12" width="0" layer="19" extent="16-16"/>
+<wire x1="-23.891596875" y1="19.622528125" x2="-24.25" y2="21.8" width="0" layer="19" extent="16-16"/>
+<wire x1="10.967228125" y1="28.7475" x2="10.15" y2="31.05" width="0" layer="19" extent="16-16"/>
+<wire x1="24.97" y1="-7.525" x2="22.55" y2="-6.95" width="0" layer="19" extent="16-16"/>
+<wire x1="27.87" y1="-10.075" x2="27.9" y2="-7.45" width="0" layer="19" extent="16-16"/>
+<wire x1="-22.51871875" y1="17.32128125" x2="-23.891596875" y2="19.622528125" width="0" layer="19" extent="16-16"/>
+<wire x1="22.61628125" y1="13.4175375" x2="24.05" y2="11" width="0" layer="19" extent="16-16"/>
+<wire x1="20.89565" y1="14.4951" x2="22.61628125" y2="13.4175375" width="0" layer="19" extent="16-16"/>
+<wire x1="24.007540625" y1="15.12371875" x2="22.61628125" y2="13.4175375" width="0" layer="19" extent="16-16"/>
+<wire x1="15.8467625" y1="20.919453125" x2="14.31" y2="18.46" width="0" layer="19" extent="16-16"/>
+<wire x1="16.0967625" y1="21.352465625" x2="15.8467625" y2="20.919453125" width="0" layer="19" extent="16-16"/>
+<wire x1="10.217228125" y1="21.6475" x2="11.853240625" y2="23.802465625" width="0" layer="19" extent="16-16"/>
+<wire x1="-21.53871875" y1="23.218715625" x2="-24.25" y2="21.8" width="0" layer="19" extent="16-16"/>
+<wire x1="27.87" y1="3.775" x2="32.15" y2="3.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="IC1" pad="24"/>
@@ -3392,12 +3465,13 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="19.958828125" y1="14.10883125" x2="20.11745625" y2="13.950203125" width="0.254" layer="16"/>
 <wire x1="21.223721875" y1="12.442459375" x2="21.223721875" y2="12.56745625" width="0.4064" layer="16"/>
 <wire x1="21.223721875" y1="12.56745625" x2="20.11745625" y2="13.950203125" width="0.4064" layer="16"/>
-<wire x1="21.223721875" y1="12.442459375" x2="25.43268125" y2="4.935303125" width="0.4064" layer="16"/>
-<wire x1="25.43268125" y1="4.935303125" x2="26.57" y2="4.675" width="0.4064" layer="16" curve="68.662812"/>
 <wire x1="21.673846875" y1="15.039996875" x2="21.236946875" y2="15.347825" width="0.254" layer="16"/>
 <wire x1="21.236946875" y1="15.347825" x2="19.8969375" y2="15.124490625" width="0.254" layer="16" curve="89.259593"/>
 <wire x1="19.8969375" y1="15.124490625" x2="19.8" y2="14.95" width="0.254" layer="16" curve="13.70657"/>
 <wire x1="19.8" y1="14.95" x2="19.958828125" y2="14.10883125" width="0.254" layer="16" curve="65.787772"/>
+<wire x1="24.75" y1="4.3" x2="25.05" y2="2.95" width="0.4064" layer="16" curve="-21.774631"/>
+<wire x1="25.05" y1="2.95" x2="24.97" y2="1.225" width="0.4064" layer="16" curve="-8.593624"/>
+<wire x1="24.75" y1="4.3" x2="21.223721875" y2="12.442459375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+3V3">
 <contactref element="C18" pad="2"/>
@@ -3448,7 +3522,7 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="14.890546875" y1="20.6632375" x2="15.65" y2="20.01" width="0.254" layer="16"/>
 <via x="11.5" y="27.16" extent="1-16" drill="0.35"/>
 <wire x1="14.149321875" y1="25.450759375" x2="17.4" y2="22.91" width="0.4064" layer="1" curve="11.826357"/>
-<via x="24.2" y="13.21" extent="1-16" drill="0.35"/>
+<via x="24.25" y="12.96" extent="1-16" drill="0.35"/>
 <wire x1="-21.452078125" y1="20.71854375" x2="-20.87" y2="20.136465625" width="0.4064" layer="16"/>
 <wire x1="-20.87" y1="20.136465625" x2="-20.87" y2="20.1" width="0.4064" layer="16"/>
 <wire x1="-20.87" y1="20.1" x2="-20.87" y2="18.97" width="0.4064" layer="16"/>
@@ -3456,8 +3530,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="-19.913884375" y1="17.39358125" x2="-21.07901875" y2="18.558715625" width="0.4064" layer="16"/>
 <wire x1="-21.07901875" y1="18.558715625" x2="-21.281284375" y2="18.558715625" width="0.4064" layer="16"/>
 <wire x1="-21.452078125" y1="20.71854375" x2="-20.301284375" y2="21.98128125" width="0.4064" layer="16"/>
-<wire x1="28.402371875" y1="14.78024375" x2="26.655565625" y2="13.67041875" width="0.4064" layer="16"/>
-<wire x1="26.655565625" y1="13.67041875" x2="24.2" y2="13.21" width="0.4064" layer="16" curve="-40.509604"/>
+<wire x1="28.402371875" y1="14.78024375" x2="26.076403125" y2="13.30245" width="0.4064" layer="16"/>
+<wire x1="26.076403125" y1="13.30245" x2="24.25" y2="12.96" width="0.4064" layer="16" curve="-40.509604"/>
 <wire x1="-4.85" y1="27.96" x2="-4.42" y2="28.39" width="0.254" layer="16"/>
 <wire x1="-4.42" y1="28.39" x2="-2.948" y2="28.39" width="0.254" layer="16"/>
 <wire x1="-2.948" y1="31.64" x2="-2.9" y2="31.64" width="0.254" layer="16"/>
@@ -3489,8 +3563,8 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="17.4" y1="22.91" x2="18.1" y2="22.55" width="0.4064" layer="1" curve="9.764474"/>
 <wire x1="18.1" y1="22.55" x2="17.85" y2="20.15" width="0.4064" layer="1" curve="-147.225906"/>
 <wire x1="17.85" y1="20.15" x2="15.65" y2="20.01" width="0.4064" layer="1" curve="-13.598"/>
-<wire x1="15.65" y1="20.01" x2="22.374696875" y2="14.971815625" width="0.4064" layer="1"/>
-<wire x1="22.374696875" y1="14.971815625" x2="24.2" y2="13.21" width="0.4064" layer="1" curve="-14.290475"/>
+<wire x1="15.65" y1="20.01" x2="21.440775" y2="15.67151875" width="0.4064" layer="1"/>
+<wire x1="21.440775" y1="15.67151875" x2="24.25" y2="12.96" width="0.4064" layer="1" curve="-14.290475"/>
 <wire x1="11.732775" y1="20.7725" x2="12.371771875" y2="20.44214375" width="0.4064" layer="16"/>
 <wire x1="12.371771875" y1="20.44214375" x2="12.68028125" y2="20.25" width="0.4064" layer="16" curve="-9.152822"/>
 <via x="12.68028125" y="20.25" extent="1-16" drill="0.35"/>
@@ -3722,13 +3796,17 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <via x="16.382134375" y="27.434334375" extent="1-16" drill="0.35"/>
 <wire x1="16.382134375" y1="27.434334375" x2="16.45" y2="26.66" width="0.254" layer="1"/>
 <wire x1="16.45" y1="26.66" x2="17.55" y2="25.26" width="0.254" layer="1" curve="66.296734"/>
-<via x="28.8" y="3.4" extent="1-16" drill="0.35"/>
-<wire x1="28.8" y1="3.4" x2="26.572078125" y2="3.422921875" width="0.254" layer="16"/>
-<wire x1="26.572078125" y1="3.422921875" x2="26.57" y2="3.425" width="0.254" layer="16"/>
 <wire x1="17.55" y1="25.26" x2="19.85" y2="23.65" width="0.254" layer="1" curve="-32.595185"/>
 <wire x1="19.85" y1="23.65" x2="21.35" y2="21.45" width="0.254" layer="1" curve="-8.847012"/>
 <wire x1="21.35" y1="21.45" x2="24.55" y2="15.65" width="0.254" layer="1" curve="-1.95355"/>
-<wire x1="24.55" y1="15.65" x2="28.8" y2="3.4" width="0.254" layer="1" curve="-17.552295"/>
+<wire x1="24.97" y1="-0.025" x2="25.675" y2="-0.025" width="0.254" layer="16"/>
+<wire x1="25.675" y1="-0.025" x2="26.4" y2="0.7" width="0.254" layer="16"/>
+<wire x1="26.4" y1="0.7" x2="26.4" y2="1.9" width="0.254" layer="16"/>
+<wire x1="26.4" y1="1.9" x2="25.8" y2="2.5" width="0.254" layer="16"/>
+<wire x1="25.8" y1="2.5" x2="25.8" y2="6.5" width="0.254" layer="16"/>
+<wire x1="25.8" y1="6.5" x2="25.8" y2="7.35" width="0.2" layer="16"/>
+<wire x1="25.8" y1="7.35" x2="25.9" y2="7.45" width="0.2" layer="16"/>
+<wire x1="25.9" y1="7.45" x2="24.55" y2="15.65" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USART1_TX">
 <contactref element="J1" pad="3"/>
@@ -3739,10 +3817,18 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <via x="15.230921875" y="28.114259375" extent="1-16" drill="0.35"/>
 <wire x1="15.230921875" y1="28.114259375" x2="15.9" y2="25.96" width="0.254" layer="1"/>
 <wire x1="15.9" y1="25.96" x2="17.243265625" y2="24.716234375" width="0.254" layer="1" curve="59.897283"/>
-<via x="28.15171875" y="2.140890625" extent="1-16" drill="0.35"/>
-<wire x1="28.15171875" y1="2.140890625" x2="26.57" y2="2.175" width="0.254" layer="16"/>
+<wire x1="24.9751625" y1="-1.035665625" x2="24.97" y2="-1.275" width="0.254" layer="16"/>
 <wire x1="17.243265625" y1="24.716234375" x2="19.25" y2="23.4" width="0.254" layer="1" curve="-40.824814"/>
-<wire x1="19.25" y1="23.4" x2="28.15171875" y2="2.140890625" width="0.254" layer="1" curve="-27.212167"/>
+<wire x1="24.97" y1="-1.275" x2="26.725" y2="-1.275" width="0.254" layer="16"/>
+<wire x1="26.725" y1="-1.275" x2="29.85" y2="1.85" width="0.254" layer="16"/>
+<wire x1="29.85" y1="1.85" x2="29.85" y2="5.2" width="0.254" layer="16"/>
+<wire x1="29.85" y1="5.2" x2="28.45" y2="6.6" width="0.254" layer="16"/>
+<wire x1="28.45" y1="6.6" x2="28.1" y2="6.95" width="0.2" layer="16"/>
+<wire x1="27.1" y1="6.95" x2="26.7" y2="7.35" width="0.2" layer="16"/>
+<wire x1="28.1" y1="6.95" x2="27.1" y2="6.95" width="0.2" layer="16"/>
+<via x="26.9" y="9.6" extent="1-16" drill="0.35"/>
+<wire x1="26.9" y1="9.6" x2="19.25" y2="23.4" width="0" layer="19" extent="1-1"/>
+<wire x1="26.7" y1="7.35" x2="26.9" y2="9.6" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CAN1_TX">
 <contactref element="IC1" pad="22"/>
@@ -3752,13 +3838,14 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <wire x1="17.95" y1="26.26" x2="18.05" y2="26.36" width="0.254" layer="16" curve="63.916337"/>
 <via x="18.05" y="26.36" extent="1-16" drill="0.35"/>
 <contactref element="J1" pad="5"/>
-<wire x1="18.05" y1="26.36" x2="19.95" y2="25.25" width="0.254" layer="1"/>
-<wire x1="19.95" y1="25.25" x2="20.65" y2="24.6" width="0.254" layer="1" curve="-25.169954"/>
-<wire x1="20.65" y1="24.6" x2="29.25" y2="8.45" width="0.254" layer="1" curve="-13.000975"/>
-<wire x1="29.25" y1="8.45" x2="30.2" y2="-0.3" width="0.254" layer="1" curve="-30.677501"/>
-<wire x1="30.2" y1="-0.3" x2="30.15" y2="-0.35" width="0.254" layer="1" curve="-71.714228"/>
-<via x="30.15" y="-0.35" extent="1-16" drill="0.35"/>
-<wire x1="30.15" y1="-0.35" x2="26.57" y2="-0.325" width="0.254" layer="16"/>
+<wire x1="19.9" y1="25.25" x2="18.120253125" y2="26.289746875" width="0.254" layer="1"/>
+<wire x1="18.05" y1="26.36" x2="18.120253125" y2="26.289746875" width="0.254" layer="1"/>
+<wire x1="19.9" y1="25.25" x2="20.69890625" y2="24.508159375" width="0.254" layer="1" curve="-25.169954"/>
+<wire x1="26.16664375" y1="-3.78335625" x2="24.97" y2="-3.775" width="0.254" layer="16"/>
+<wire x1="26.16664375" y1="-3.78335625" x2="30.95" y2="1" width="0.254" layer="16"/>
+<wire x1="30.95" y1="5.85" x2="30.25" y2="6.55" width="0.254" layer="16"/>
+<wire x1="30.95" y1="1" x2="30.95" y2="5.85" width="0.254" layer="16"/>
+<wire x1="30.25" y1="6.55" x2="20.69890625" y2="24.508159375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="CAN1_RX">
 <contactref element="IC1" pad="21"/>
@@ -3768,13 +3855,16 @@ These are the free and generally easy to produce 4-layer PCB design rules. You c
 <via x="17.15" y="26.91" extent="1-16" drill="0.35"/>
 <contactref element="J1" pad="4"/>
 <wire x1="17.15" y1="26.91" x2="17.2" y2="26.36" width="0.254" layer="1"/>
-<via x="29.45" y="1" extent="1-16" drill="0.35"/>
-<wire x1="26.57" y1="0.925" x2="29.45" y2="1" width="0.254" layer="16"/>
+<wire x1="24.97" y1="-2.525" x2="25.950534375" y2="-2.499465625" width="0.254" layer="16"/>
 <wire x1="17.2" y1="26.36" x2="17.7" y2="25.75" width="0.254" layer="1" curve="68.292205"/>
 <wire x1="17.7" y1="25.75" x2="19.05" y2="25.15" width="0.254" layer="1" curve="-14.898229"/>
 <wire x1="19.05" y1="25.15" x2="20.55" y2="23.75" width="0.254" layer="1" curve="-23.226959"/>
-<wire x1="20.55" y1="23.75" x2="29.4" y2="5.35" width="0.254" layer="1" curve="-19.349875"/>
-<wire x1="29.4" y1="5.35" x2="29.45" y2="1" width="0.254" layer="1" curve="-30.706119"/>
+<wire x1="25.950534375" y1="-2.499465625" x2="26.400534375" y2="-2.499465625" width="0.254" layer="16"/>
+<wire x1="26.400534375" y1="-2.499465625" x2="30.4" y2="1.5" width="0.254" layer="16"/>
+<wire x1="30.4" y1="1.5" x2="30.4" y2="5.55" width="0.254" layer="16"/>
+<wire x1="28.5" y1="7.45" x2="28.1" y2="7.45" width="0.254" layer="16"/>
+<wire x1="30.4" y1="5.55" x2="28.5" y2="7.45" width="0.254" layer="16"/>
+<wire x1="28.1" y1="7.45" x2="20.55" y2="23.75" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC4" pad="3"/>

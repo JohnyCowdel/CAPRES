@@ -13157,13 +13157,11 @@ Source: AVX .. aphvc.pdf</description>
 <parts>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U4" library="LDO" deviceset="MIC5501-3.0YM5-TR" device=""/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1u"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -13243,10 +13241,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="-66.04" y="137.668" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-67.31" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="C11" gate="G$1" x="-29.21" y="128.27" smashed="yes" rot="R180">
-<attribute name="NAME" x="-30.734" y="125.349" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-30.734" y="127.889" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="C18" gate="G$1" x="-22.86" y="128.27" smashed="yes" rot="R180">
 <attribute name="NAME" x="-24.384" y="125.349" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-24.384" y="127.889" size="1.778" layer="96" rot="R180"/>
@@ -13263,9 +13257,6 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="GND16" gate="1" x="-39.37" y="116.84" smashed="yes">
 <attribute name="VALUE" x="-39.37" y="116.586" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND17" gate="1" x="-29.21" y="116.84" smashed="yes">
-<attribute name="VALUE" x="-29.21" y="116.586" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND18" gate="1" x="-22.86" y="116.84" smashed="yes">
 <attribute name="VALUE" x="-22.86" y="116.586" size="1.778" layer="96" align="top-center"/>
@@ -13500,11 +13491,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="-29.21" y1="125.73" x2="-29.21" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="-22.86" y1="125.73" x2="-22.86" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
@@ -13720,12 +13706,8 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="-22.86" y1="134.62" x2="-22.86" y2="133.35" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="-29.21" y1="134.62" x2="-29.21" y2="133.35" width="0.1524" layer="91"/>
-<wire x1="-29.21" y1="134.62" x2="-22.86" y2="134.62" width="0.1524" layer="91"/>
-<junction x="-29.21" y="134.62"/>
 <pinref part="U4" gate="G$1" pin="VOUT"/>
-<wire x1="-43.18" y1="134.62" x2="-29.21" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="134.62" x2="-22.86" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="134.62" x2="-17.78" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="134.62" x2="-17.78" y2="138.43" width="0.1524" layer="91"/>
 <junction x="-22.86" y="134.62"/>

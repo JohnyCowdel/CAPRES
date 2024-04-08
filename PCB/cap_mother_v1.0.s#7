@@ -14159,8 +14159,8 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA9"/>
-<wire x1="48.26" y1="80.01" x2="69.85" y2="80.01" width="0.1524" layer="91"/>
-<label x="69.85" y="80.01" size="1.778" layer="95" xref="yes"/>
+<wire x1="48.26" y1="80.01" x2="72.39" y2="80.01" width="0.1524" layer="91"/>
+<label x="72.39" y="80.01" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAN1_TX" class="0">
@@ -14177,8 +14177,8 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="CAN1_RX" class="0">
 <segment>
-<wire x1="48.26" y1="85.09" x2="67.31" y2="85.09" width="0.1524" layer="91"/>
-<label x="67.31" y="85.09" size="1.778" layer="95" xref="yes"/>
+<wire x1="48.26" y1="85.09" x2="73.66" y2="85.09" width="0.1524" layer="91"/>
+<label x="73.66" y="85.09" size="1.778" layer="95" xref="yes"/>
 <pinref part="IC1" gate="G$1" pin="PA11"/>
 </segment>
 <segment>

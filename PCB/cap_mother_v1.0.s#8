@@ -13980,13 +13980,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="53.34" y="77.47" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="T_EN" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PA9"/>
-<wire x1="48.26" y1="80.01" x2="64.77" y2="80.01" width="0.1524" layer="91"/>
-<label x="64.77" y="80.01" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="TIMEBASE" class="0">
 <segment>
 <pinref part="IC5" gate="G$1" pin="CP"/>
@@ -13999,13 +13992,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="35.56" y="125.73" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="IC1" gate="G$1" pin="PA15"/>
 <wire x1="35.56" y1="125.73" x2="35.56" y2="115.57" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="T_RST" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PA10"/>
-<wire x1="48.26" y1="82.55" x2="53.34" y2="82.55" width="0.1524" layer="91"/>
-<label x="53.34" y="82.55" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BIAS" class="0">
@@ -14159,12 +14145,22 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="222.25" x2="41.91" y2="222.25" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA10"/>
+<wire x1="48.26" y1="82.55" x2="54.61" y2="82.55" width="0.1524" layer="91"/>
+<label x="54.61" y="82.55" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USART1_TX" class="0">
 <segment>
 <label x="60.96" y="219.71" size="1.778" layer="95" xref="yes"/>
 <wire x1="41.91" y1="219.71" x2="60.96" y2="219.71" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA9"/>
+<wire x1="48.26" y1="80.01" x2="69.85" y2="80.01" width="0.1524" layer="91"/>
+<label x="69.85" y="80.01" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAN1_TX" class="0">
